@@ -1,0 +1,46 @@
+body {
+    background-size: cover;
+}
+.heading {
+    font-size: 35px;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    box-shadow: 5px 20px 20px rgb(69, 69, 69);
+    text-shadow: 5px 20px 20px rgb(0, 0, 0);
+}
+#status, #status_of_objects, #start {
+    font-size: 25px;
+    text-shadow: 10px 10px 10px rgb(0, 148, 96);
+    border-radius: 20px;
+}
+.copy_right_footer{
+    position: fixed;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(135, 135, 135);
+    line-height: 2;
+    text-align: center;
+    font-size: 23px;
+    text-shadow: 15px 15px 15px rgb(0, 0, 0);
+    border: 5px ridge rgb(255, 255, 255);
+    border-radius: 20px;
+}
+canvas {
+    border: 5px ridge rgb(0, 55, 255);
+    border-radius: 10px;
+    margin-top: 130px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: black;
+}
+@keyframes example{
+    from{
+      box-shadow: 15px 15px 15px white;
+    }
+    to{
+      box-shadow: 15px 15px 15px rgb(0, 255, 208);
+    }
+}
